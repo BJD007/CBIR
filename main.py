@@ -1,1 +1,2 @@
 Initial code
+New feature
