@@ -9,4 +9,4 @@ function hist = colorHistogram(image)
     
     % Normalize histograms
     hist = [hHist; sHist; vHist] / numel(hsvImage);
-end
+end% Color correlogram implementation
