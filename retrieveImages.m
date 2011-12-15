@@ -10,4 +10,4 @@ function [similarImages, similarities] = retrieveImages(queryFeatures, databaseF
     
     similarImages = imageNames(indices(1:numResults));
     similarities = sortedSimilarities(1:numResults);
-end
+end% Retrieve Images implementation
