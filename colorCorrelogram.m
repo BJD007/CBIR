@@ -18,4 +18,4 @@ function correlogram = colorCorrelogram(image)
     
     % Flatten and normalize correlogram
     correlogram = correlogram(:) / sum(correlogram(:));
-end
+end% Color correlogram implementation
