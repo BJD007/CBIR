@@ -24,4 +24,4 @@ function [databaseFeatures, imageNames] = extractDatabaseFeatures(imagePath)
         databaseFeatures{i} = extractFeatures(img);
         imageNames{i} = imageFiles(i).name;
     end
-end
+end% Extract Features implementation
