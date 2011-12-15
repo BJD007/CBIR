@@ -19,4 +19,4 @@ function features = waveletDecomposition(image)
     
     % Normalize features
     features = features / sum(features);
-end
+end% Wavelet Decomposition implementation
