@@ -26,4 +26,4 @@ for i = 1:numResults
     subplot(3, 4, i+1);
     imshow(imread(fullfile(imagePath, similarImages{i})));
     title(sprintf('Similarity: %.2f', similarities(i)));
-end
+end% Main function
